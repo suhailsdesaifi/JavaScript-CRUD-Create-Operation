@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- title tag -->
+		<title>CRUD - Create Operation</title>
+
+	<!-- meta tags -->
+		<meta charset="utf-8">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="discription" content="Learning the HTML, CSS, and the JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- external links -->
+		<link rel="stylesheet" href="style.css">
+		<script src="app.js"></script>
+
+	</head>
+	<body>
+		<form id="myform">
+            <div class="image" title="Upload Profile Pic">
+                <label id="butn" for="image">+</label>
+                <input type="file" id="image" accept="image/gif, image/png, image/jpeg" alt="Upload Profile Picture" hidden/>
+            </div>
+            <div class="text">
+                <input type="text" id="title" placeholder="Title"/>
+                <input type="text" id="email" placeholder="Email ID"/>
+                <input type="number" id="phone" placeholder="Phone"/>
+                <input type="text" id="city" placeholder="Location"/>
+                <button id="btn">Sign Up</button>
+            </div>
+        </form>
+        <div id="newProfile"></div>
+	</body>
+</html>
